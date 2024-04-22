@@ -1,0 +1,62 @@
+{"events":[
+    {
+        "event_id":1,
+        "event_name":"Music Festa",
+        "event_price": 20,
+        "event_image":"https://imgs.search.brave.com/wQKlVB5UdbPy5Bs-KcAxRdiraAUbLesRoHfLs2K0Xgc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9l/eGNpdGVkLWF1ZGll/bmNlLXdhdGNoaW5n/LWNvbmZldHRpLWZp/cmV3b3Jrcy1oYXZp/bmctZnVuLW11c2lj/LWZlc3RpdmFsLW5p/Z2h0LWNvcHktc3Bh/Y2VfNjM3Mjg1LTU1/OS5qcGc_c2l6ZT02/MjYmZXh0PWpwZw",
+        "event_description":"Music Fiesta is an electrifying celebration of sound and rhythm, where music enthusiasts from all walks of life come together to experience the magic of live performances.",
+        "event_date": "04-15-2024",
+        "event_time": "05:00 PM",
+        "event_location":"Sunset Park Amphitheater"
+    },
+    {
+        "event_id":2,
+        "event_name":"Spring Fling Gala",
+        "event_price": 50,
+        "event_image":"https://img.freepik.com/free-photo/night-celebration-candle-flame-illuminates-dark-outdoors-generated-by-artificial-intelligence_188544-240529.jpg?t=st=1713328288~exp=1713331888~hmac=1fe64d744f9ea809befdb20c3ddeb626c710d9a787f5356913e4b2d4f2dacfef&w=1060",
+        "event_description":"A glamorous evening affair celebrating the arrival of spring, featuring live music, gourmet dining and a silent auction to benefit local charities.",
+        "event_date": "05-26-2024",
+        "event_time": "08:00 PM",
+        "event_location":"Grand Ballroom, Parkview Hotel"
+    },
+    {
+        "event_id":3,
+        "event_name":"Winter Wonderland Charity Gala",
+        "event_price": 40,
+        "event_image":"https://img.freepik.com/premium-photo/winter-wonderland-scene-generated-by-ai_985692-616.jpg",
+        "event_description":"An elegant evening of cocktails, dinner and dancing to support local shelters and organizations working to alleviate homelessness during the winter months.",
+        "event_date": "12-01-2024",
+        "event_time": "10:00 AM",
+        "event_location":"Snowflake Ballroom, Riverside Manor"
+    },
+    {
+        "event_id":4,
+        "event_name":"Tech Summit 2024",
+        "event_price": 30,
+        "event_image":"https://imgs.search.brave.com/T-YLedESyk11RBDzNcYeHNIIwpQaCNb8fxUEsspXNyg/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi93ZXJu/ZXItdm9nZWxzLWNo/aWVmLXRlY2hub2xv/Z3ktb2ZmaWNlci1h/bWF6b24tc3BlYWtz/LXdlYi1zdW1taXQt/Y2VudHJlLXN0YWdl/LWxpc2Jvbi1wb3J0/dWdhbC1ub3ZlbWJl/ci0xNjQ1MDA5NDQu/anBn",
+        "event_description":"A premier technology conference bringing together industry leaders, innovators and enthusiasts for a day of keynote speeches, panel discussions and networking opportunities.",
+        "event_date": "10-12-2024",
+        "event_time": "11:00 AM",
+        "event_location":"Convention Center, Downtown"
+    },
+    {
+        "event_id":5,
+        "event_name":"Fitness Expo & Fun Run",
+        "event_price": 20,
+        "event_image":"https://img.freepik.com/free-photo/yoga-instructors-preparing-class_23-2150847945.jpg?t=st=1713327371~exp=1713330971~hmac=a93d10dda4ba1dad0f55742fba6340b925928f68e8743faf41653d74ce999157&w=1060",
+        "event_description":"A health and wellness event featuring fitness demonstrations, wellness workshops, vendor booths and a community fun run/walk promoting an active lifestyle.",
+        "event_date": "06-22-2024",
+        "event_time": "07:00 PM",
+        "event_location":"Sports Complex, Greenfield Park"
+    },
+    {
+        "event_id":6,
+        "event_name":"Food Truck Festival",
+        "event_price": 50,
+        "event_image":"https://img.freepik.com/free-vector/cartoon-street-food-festival-background_52683-81510.jpg?t=st=1713326754~exp=1713330354~hmac=417a03eea4deaacd4b3bdba67d6aa382ff8f6f1af08266141f9946663e376186&w=996",
+        "event_description":"A culinary extravaganza showcasing a variety of food trucks offering gourmet street food, craft beverages, live music and family-friendly activities.",
+        "event_date": "08-19-2024",
+        "event_time": "08:00 PM",
+        "event_location":"Waterfront Park"
+    }
+]}
