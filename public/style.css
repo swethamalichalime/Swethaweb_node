@@ -30,24 +30,24 @@ body{
     justify-content: center;
 }
 
-.nav__ul li{
+.nav__ul .navlist{
     margin:0 20px;   
     transition: color 0.5s ease, text-decoration-color 0.5s ease;
 }
 
-.nav__ul li:hover{
+.nav__ul .navlist:hover{
     color:orange;
     text-decoration: underline orange;
 }
 
-.nav__div--1 p{
+.nav__div--1 #first-word{
     font-size: 25px;
 }
-.nav__div--1 p span{
+.nav__div--1 #second-word{
     color: orange;
 }
 
-.nav__div--2 button{
+.nav__div--2 .contactme{
     padding: 7px 15px;
     border-radius: 8px;
     border:0px;
@@ -77,20 +77,20 @@ main{
     /* background-color: red; */
 }
 
-.main__section--1 .con__1-1 img{
+.main__section--1 .con__1-1 .image{
     width:350px;
     height:400px;
     border-radius: 50% / 50%;
 
 }
 
-.main__section--1 .con__1-2 h1{
+.main__section--1 .con__1-2 .heading1{
     color: orange;
     font-size: 35px;
     margin-bottom: -15px;
 }
 
-.main__section--1 .con__1-2 h2{
+.main__section--1 .con__1-2 .heading2{
     text-align: center;
 }
 
@@ -103,18 +103,18 @@ main{
     /* background-color: red; */
 }
 
-.main__section--1 .con__2 h2{
+.main__section--1 .con__2 .heading2_con_2{
     margin-top: 40px;
     font-size: 35px;
     color:orange;
 }
 
-.main__section--1 .con__2 ul{
+.main__section--1 .con__2 .unorderedlist{
     padding:0px;
     margin-left:-7%
 }
 
-.main__section--1 .con__2 ul li{
+.main__section--1 .con__2 .unorderedlist .list{
     font-size: 30px;
     margin-bottom: 10px;
 }
@@ -129,11 +129,11 @@ main{
     padding: 5px 40px 40px 40px;
 }
 
-.main__section--2 h1{
+.main__section--2 .main-heading2{
     font-size: 35px;
     color:orange;
 }
-.main__section--2 ul li{
+.main__section--2 .mainul .mainli{
     margin-bottom: 10px;
 }
 
@@ -143,7 +143,7 @@ main{
     color: black;
 }
 
-.main__section--3 h1{
+.main__section--3 .main-heading3{
     font-size: 38px;
     color:orange;
     display: grid;
@@ -167,20 +167,20 @@ main{
     padding: 23px;
 }
 
-.main__section--3 .con__1 h2{
+.main__section--3 .con__1 con1heading1{
     color: orange;
 }
 
-.main__section--3 .con__2 h2{
+.main__section--3 .con__2 .con2heading2{
     color: orange;
 }
 
-.main__section--3 .con__1 img{
+.main__section--3 .con__1 #con1img{
     width:150px;
     height:150px;
     margin-right: 25px;
 }
-.main__section--3 .con__2 img{
+.main__section--3 .con__2 #con2img{
     width:150px;
     height:150px;
     margin-right: 25px;
@@ -218,19 +218,19 @@ main{
     border-radius: 8px;
 }
 
-.main__section--4 .con h1{
+.main__section--4 .con .headingmain4{
     font-size: 35px;
     margin-top: 35px;
     color:orange;
     
 }
-.main__section--4 .con li{
+.main__section--4 .con .mainlist4{
     font-size: 20px;
     margin-bottom: 15px;
     
 }
 
-footer{
+.footer{
     width:100%;
     background-color: rgb(63 63 63);
     color: white;
@@ -238,29 +238,29 @@ footer{
     grid-template-areas: footer;
 }
 
-footer .con__1{
+.footer .con__1{
     display: flex;
     justify-content: center;
 }
 
-footer .con__1 img{
+.footer .con__1 .footerimg{
     margin: 10px 10px 15px 10px;
     width:25px;
     height:25px;
 }
 
-footer .con__2{
+.footer .con__2{
     display: flex;
     justify-content: center;
 }
 
-footer .con__2 {
+.footer .con__2 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-footer .con__2 p{
+.footer .con__2 .con2p{
     font-size: 20px;
     margin: 0px;
 
@@ -292,12 +292,12 @@ footer .con__2 p{
         z-index: 1000;
     }
     
-    .nav__ul li{
+    .nav__ul .navlist{
         margin:0 10px;   
         transition: color 0.5s ease, text-decoration-color 0.5s ease;
     }
     
-    .nav__div--2 button{
+    .nav__div--2 .contactme{
         padding: 10px 15px;
         border-radius: 8px;
         border:0px;
@@ -334,7 +334,7 @@ footer .con__2 p{
         /* background-color: red; */
     }
 
-    .main__section--3 h1{
+    .main__section--3 .main-heading3{
         font-size: 38px;
         color:orange;
         display: grid;

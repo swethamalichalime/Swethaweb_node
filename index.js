@@ -25,6 +25,7 @@ http.createServer(async (req, res) => {
             console.log("Database is connected sucessfully");
             const eventsData = await getEventsData(client);
             console.log(JSON.stringify(eventsData));
+            //Handling CORS Issue
             res.setHeader("Access-Control-Allow-Origin", '*');
             res.writeHead(200, { "content-type": "application/json" });
             res.end(JSON.stringify(eventsData));
@@ -39,7 +40,7 @@ http.createServer(async (req, res) => {
             }
     }
     else {
-        let contentType;
+        let contentType; 
         let filePath = path.join(__dirname, "public", req.url === "/" ? "index.html" : req.url);
         let fileExtension = path.extname(filePath);
         switch (fileExtension) {
